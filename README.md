@@ -91,10 +91,6 @@ After copying the API request as a cURL command:
 
 This manual process allows you to maintain the application's functionality by ensuring that the API interactions are up-to-date with xe.com's current endpoints and requirements.
 
-## Contributing
-
-Contributions are welcome! If you have a feature request, bug report, or a suggestion, please open an issue or submit a pull request.
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
