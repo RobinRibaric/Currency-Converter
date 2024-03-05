@@ -1,0 +1,33 @@
+name: currency_converter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.4
+  shared_preferences: ^2.2.2
+  http: ^1.2.1
+  get_it: ^7.6.7
+  equatable: ^2.0.5
+  intl: ^0.19.0
+  sliding_up_panel: ^2.0.0+1
+  flutter_launcher_icons: ^0.13.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/icon/ic_launcher.png"
